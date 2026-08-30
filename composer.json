@@ -1,0 +1,35 @@
+{
+  "name": "astral-php/astral-utilities",
+  "version": "0.1.0",
+  "description": "Helpers chaînes, dates et tableaux pour Astral MVC — zéro dépendance.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "astral",
+    "php",
+    "utilities",
+    "helpers",
+    "string",
+    "date",
+    "array"
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Astral\\Utilities\\": "src/Astral/Utilities/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Astral\\Utilities\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit tests/"
+  }
+}
