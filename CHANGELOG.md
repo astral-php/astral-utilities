@@ -1,4 +1,10 @@
 # Changelog
+## [0.2.0] — 2026-10-31
+
+### Modifié
+
+- PHP ^8.3 (feuille 2.1 P6)
+
 
 Toutes les modifications notables de `astral-utilities` sont documentées ici.
 
